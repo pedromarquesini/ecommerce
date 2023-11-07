@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="./style.css">
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+</head>
+<body>
+    <section 
+        class=" fixed top-0 right-[0px] bg-orange-400 h-screen w-[360px] text-slate-200 z-50 duration-200 border-l border-slate-200 p-5 flex flex-col justify-between" 
+        id="cart">
+        <div id="cart-header" class="flex justify-between m-4">Meu carrinho
+            <button id="close-cart" ><i class="fa-solid fa-circle-xmark hover:text-slate-900"></i></button>
+
+        </div>
+
+        <section id="cart-products"></section>
+
+        <p id="total price">R$600</p>
+
+        <button class="bg-slate-200 text-slate-900 p-1">Finalizar Compra</button>
+    </section>
+    <header class="flex bg-orange-300 h-25 p-1 justify-between z-10 top-0 sticky">
+        <div><!--ajustar a imagem ao meio-->
+            <img class="h-20" src="./assets/logo/logo-loja.png" alt="logo loja">        
+        </div>
+        <div class="flex gap-2 items-end"><!--ajustar os botoes pro lado-->
+            <div class="text-slate-200 flex gap-2 items-end">
+                <button> <i class="fa-solid fa-user"></i> </button>
+                <button id="open-cart"> <i class="fa-solid fa-cart-shopping hover:text-slate-900"></i></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="container-product" class="flex flex-wrap justify-center ">
+                   
+        </section> 
+    </main>
+    <script type ="module" src="./main.js"></script>
+</body>
+</html>
