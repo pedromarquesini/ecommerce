@@ -1,10 +1,11 @@
-import { addProductCart } from "./menuCart";
+import { addProductCart, updateTotalPrice } from "./menuCart";
 import { list } from "./productList";
 
 export function startCatalog(){
     for(const productList of list){
         //adiciona o estilo de card para cada produto
-        const productCard = `<div class="border-solid w-70 m-3 rounded-lg flex flex-col p-2 shadow-xl shadow-slate-400 justify-between group" id="card-product-${productList.id}">
+        const productCard = 
+        `<div class="border-solid w-70 m-3 rounded-lg flex flex-col p-2 shadow-xl shadow-slate-400 justify-between group ${productList.national ? 'NATIONAL' : 'INTERNATIONAL'}" id="card-product-${productList.id}">
     <img 
         src="./assets/img/${productList.fileName}" 
         alt="${productList.name}"
@@ -23,8 +24,18 @@ export function startCatalog(){
         //insere o codigo html dentro da div com id container-product
     document.getElementById("container-product").innerHTML += productCard;
     }
+    for (const productList of list) {
+        document
+            .getElementById(`add-${productList.id}`)
+            .addEventListener("click", () => {
+                addProductCart(productList.id);
+            });
+      }
+    
 
-    for (const productList of list){
-        document.getElementById('add-${productList.id}').addEventListener('click', addProductCart(productList));
-    }
 }
+
+
+
+
+
