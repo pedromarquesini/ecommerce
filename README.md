@@ -30,5 +30,5 @@ Algumas melhorias futuras que podem ser feitas no projeto incluem:
 Adicionar mais recursos ao site de catálogo, como filtros de pesquisa e recomendações de produtos.
 Permitir ao usuário editar informações do pedido após a compra.
 Adicionar um sistema de suporte ao cliente.
-Conclusão
+
 
