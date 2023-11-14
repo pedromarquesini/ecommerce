@@ -1,20 +1,20 @@
 # ecommerce
 
-Descrição do projeto
+**Descrição do projeto**
 
-O projeto consiste em um e-commerce dividido em três sites:
+**O projeto consiste em um e-commerce dividido em três sites:**
 
 Site de catálogo: apresenta os produtos disponíveis para venda, com informações como descrição, preço e imagens.
 Site de pagamento e endereço: permite ao cliente escolher a forma de pagamento e informar o endereço de entrega.
 Site de histórico de pedidos: mostra os pedidos realizados pelo cliente, com informações como data e valor.
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
+**O projeto foi desenvolvido utilizando as seguintes tecnologias:**
 
 JavaScript: para a implementação da lógica e da interação do usuário com a interface.
 HTML: para a estrutura do conteúdo da página.
 CSS: para a formatação do conteúdo da página.
 
-Requisitos funcionais
+**Requisitos funcionais**
 
 O projeto deve atende aos seguintes requisitos funcionais:
 
@@ -23,7 +23,7 @@ O site de pagamento e endereço permite ao usuário escolher a forma de pagament
 O site de histórico de pedidos mostra os pedidos realizados pelo cliente, com informações como data e valor.
 A interface é responsiva, ou seja, se adapta a diferentes tamanhos de tela.
 
-Melhorias futuras
+**Melhorias futuras**
 
 Algumas melhorias futuras que podem ser feitas no projeto incluem:
 
