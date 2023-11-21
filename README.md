@@ -31,4 +31,15 @@ Adicionar mais recursos ao site de catálogo, como filtros de pesquisa e recomen
 Permitir ao usuário editar informações do pedido após a compra.
 Adicionar um sistema de suporte ao cliente.
 
+**Telas**
+Tela inicial
+![homeScreen](https://github.com/pedromarquesini/ecommerce/assets/88944403/ca7fb6d2-546f-4114-8933-03a5115c4627)
 
+Carrinho de Compras
+![cartScreen](https://github.com/pedromarquesini/ecommerce/assets/88944403/fe75dfc8-5bab-42e0-b938-e6d2c8d11c25)
+
+Tela para realizar pagamento e definir local de entrega
+![payment](https://github.com/pedromarquesini/ecommerce/assets/88944403/9ddbea10-ca3e-441d-aba7-af3326b5ade0)
+
+Histórico de Compras no site
+![history](https://github.com/pedromarquesini/ecommerce/assets/88944403/fe9322d8-5d60-42f3-b7a5-2f3925f25769)
